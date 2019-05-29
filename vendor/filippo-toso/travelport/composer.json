@@ -1,0 +1,53 @@
+{
+    "name": "filippo-toso/travelport",
+    "description": "PHP client library for Travelport SOAP API",
+    "keywords": [
+        "filippo-toso",
+        "travelport"
+    ],
+    "homepage": "https://github.com/filippotoso/travelport",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Filippo Toso",
+            "email": "filippo.toso@creativepark.it",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.6.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FilippoToso\\Travelport\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FilippoToso\\Travelport\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FilippoToso\\Travelport\\TravelportServiceProvider"
+            ],
+            "aliases": {
+                "Travelport": "FilippoToso\\Travelport\\TravelportFacade"
+            }
+        }
+    }
+}

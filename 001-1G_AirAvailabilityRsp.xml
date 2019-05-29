@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AvailabilitySearchRsp xmlns:air="http://www.travelport.com/schema/air_v29_0" xmlns:common_v29_0="http://www.travelport.com/schema/common_v29_0" TraceId="trace" TransactionId="037E8AAE0A07643CDAE03E35949A9E57" ResponseTime="402" DistanceUnits="MI">
+      <common_v29_0:NextResultReference>H4sIAAAAAAAAAJ1Uz08TQRR+bSk/tEoQQwxG0WjEC7v9AZSKBxWQ1Cw/YonGEg7D7nQZ3O4sM9OyGGOiFy96Npp4MpKY+AeYmHjVozHejAfD2T+AE84sXcpKtNEetjtvvvne+977Zt/+hCRn0LuK6kirCeJoVxlDGwbhwn/45dTzj+hlAmJFaOPkHvY9AIitt6mnPDRk0qpmZ/k6EeaKZltcQxbyBGZckztV6mpTvmDIFAv0LnaNR98GyE7PZhw6F+EwYmyBVLHKIyCzaMgDekilS6oqtbCj79LoClnysEkqxESCUHdcMljYazIUWjBcd7BPlh18kMlQTFwQN1gKOGaoVugOcm29JBhxbQlJ2ozWPAG9+zaLrsA2ZnK3q0oZDjSuwQNIGtBOGbFJuEp5jNaJhdmErKgRS4o9uO/VWKMDkWYG9YeNPFj36zO3Pn94ln8aBwjGApKl0ILlz134+n7p0snHW0shmxrv6P9xwe4vFoeYAd0cI2auBD6YRBtcgPb3QZWi+HGfgfZvnWnmbytDH+HzDFcww5YCzlIxTerSi3DEC8KNuIBz0bIa1agLoU8iEaiUk07xRia1VtPrltMX8v2mdIRkudjaxwFyXDZZdvhsRFlDUHAJw5xNMe1lSFkyGkooQzdx68ghgYAydXEZjtJKhWPRhKRERHTnKrWQohZwwqDM1tVaV5iISNEgnEW7IpN7luiThzR1SFOYvSrfXfat1cXv28o9DAaioGXEsXZNPkL0zs72j7kl7VUc4jegg8wQxyFcXkMyscKoSx1qbwjo/62+5p7qHcTonStPVAsHo8nMAKYVS3PNA+dLorb85lNPZS0/P5hQBucHigxrU7ID/KYee3E/278V4Ne7oGNKmPr0zILve+r4hZaeDObcHF9C9lVa2yHyW7PPPIccmTgSiRozCMqUnno5Lr9AianJovw7nUtn0yPpXCYzlh3NjaSH8sOF9Fg2ky2kh0fzOYkzpm97nv8LIM1TZN8FAAA=</common_v29_0:NextResultReference>
+      <air:FlightDetailsList>
+        <air:FlightDetails Key="Tk2f/r8Q2BKA+RpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T07:55:00.000+00:00" ArrivalTime="2019-12-31T09:25:00.000+00:00" FlightTime="90" TravelTime="90" Equipment="319" OriginTerminal="S"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAASpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T08:25:00.000+00:00" ArrivalTime="2019-12-31T09:55:00.000+00:00" FlightTime="90" TravelTime="90" Equipment="320" OriginTerminal="N"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKACSpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T12:55:00.000+00:00" ArrivalTime="2019-12-31T14:25:00.000+00:00" FlightTime="90" TravelTime="90" Equipment="319" OriginTerminal="N"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAESpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T14:50:00.000+00:00" ArrivalTime="2019-12-31T16:20:00.000+00:00" FlightTime="90" TravelTime="90" Equipment="319" OriginTerminal="N"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAGSpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T17:00:00.000+00:00" ArrivalTime="2019-12-31T18:25:00.000+00:00" FlightTime="85" TravelTime="85" Equipment="319" OriginTerminal="N"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAISpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T17:40:00.000+00:00" ArrivalTime="2019-12-31T19:05:00.000+00:00" FlightTime="85" TravelTime="85" Equipment="319" OriginTerminal="S"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAKSpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T19:15:00.000+00:00" ArrivalTime="2019-12-31T20:40:00.000+00:00" FlightTime="85" TravelTime="85" Equipment="319" OriginTerminal="S"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAMSpwAAAAAA==" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T19:15:00.000+00:00" ArrivalTime="2019-12-31T20:40:00.000+00:00" FlightTime="85" TravelTime="85" Equipment="319" OriginTerminal="S"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAOSpwAAAAAA==" Origin="LGW" Destination="DUB" DepartureTime="2019-12-31T14:50:00.000+00:00" ArrivalTime="2019-12-31T16:10:00.000+00:00" FlightTime="80" TravelTime="260" Equipment="320" OriginTerminal="S" DestinationTerminal="2"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAQSpwAAAAAA==" Origin="DUB" Destination="EDI" DepartureTime="2019-12-31T17:50:00.000+00:00" ArrivalTime="2019-12-31T19:10:00.000+00:00" FlightTime="80" TravelTime="260" Equipment="AT7" OriginTerminal="2"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKASSpwAAAAAA==" Origin="LGW" Destination="LHR" DepartureTime="2019-12-31T11:30:00.000+00:00" ArrivalTime="2019-12-31T13:00:00.000+00:00" FlightTime="90" TravelTime="280" Equipment="BUS" OriginTerminal="S" DestinationTerminal="TN"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAUSpwAAAAAA==" Origin="LHR" Destination="EDI" DepartureTime="2019-12-31T14:30:00.000+00:00" ArrivalTime="2019-12-31T16:10:00.000+00:00" FlightTime="100" TravelTime="280" Equipment="DH4" OriginTerminal="2"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAWSpwAAAAAA==" Origin="LGW" Destination="DUB" DepartureTime="2019-12-31T10:55:00.000+00:00" ArrivalTime="2019-12-31T12:25:00.000+00:00" FlightTime="90" TravelTime="285" Equipment="320" OriginTerminal="S" DestinationTerminal="2"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAYSpwAAAAAA==" Origin="DUB" Destination="EDI" DepartureTime="2019-12-31T14:20:00.000+00:00" ArrivalTime="2019-12-31T15:40:00.000+00:00" FlightTime="80" TravelTime="285" Equipment="AT7" OriginTerminal="2"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAaSpwAAAAAA==" Origin="LGW" Destination="LHR" DepartureTime="2019-12-31T11:15:00.000+00:00" ArrivalTime="2019-12-31T13:00:00.000+00:00" FlightTime="105" TravelTime="295" Equipment="BUS" OriginTerminal="S" DestinationTerminal="TN"/>
+        <air:FlightDetails Key="Tk2f/r8Q2BKAcSpwAAAAAA==" Origin="LHR" Destination="EDI" DepartureTime="2019-12-31T14:30:00.000+00:00" ArrivalTime="2019-12-31T16:10:00.000+00:00" FlightTime="100" TravelTime="295" Equipment="DH4" OriginTerminal="2"/>
+      </air:FlightDetailsList>
+      <air:AirSegmentList>
+        <air:AirSegment Key="Tk2f/r8Q2BKA/RpwAAAAAA==" Group="0" Carrier="BA" FlightNumber="2500" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T07:55:00.000+00:00" ArrivalTime="2019-12-31T09:25:00.000+00:00" FlightTime="90" TravelTime="90" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="J9|C9|D9|R9|I9"/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="Y9|B9|H9|K9|M9|L9|V9|N9|O9|Q9|S9|G9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKA+RpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKABSpwAAAAAA==" Group="0" Carrier="U2" FlightNumber="803" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T08:25:00.000+00:00" ArrivalTime="2019-12-31T09:55:00.000+00:00" FlightTime="90" TravelTime="90" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="PremiumEconomy" BookingCounts="W "/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="B |Y "/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAASpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKADSpwAAAAAA==" Group="0" Carrier="U2" FlightNumber="807" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T12:55:00.000+00:00" ArrivalTime="2019-12-31T14:25:00.000+00:00" FlightTime="90" TravelTime="90" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="PremiumEconomy" BookingCounts="W "/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="B |Y "/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKACSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAFSpwAAAAAA==" Group="0" Carrier="U2" FlightNumber="809" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T14:50:00.000+00:00" ArrivalTime="2019-12-31T16:20:00.000+00:00" FlightTime="90" TravelTime="90" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="PremiumEconomy" BookingCounts="W "/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="B |Y "/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAESpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAHSpwAAAAAA==" Group="0" Carrier="U2" FlightNumber="811" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T17:00:00.000+00:00" ArrivalTime="2019-12-31T18:25:00.000+00:00" FlightTime="85" TravelTime="85" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="PremiumEconomy" BookingCounts="W "/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="B |Y "/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAGSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAJSpwAAAAAA==" Group="0" Carrier="BA" FlightNumber="2504" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T17:40:00.000+00:00" ArrivalTime="2019-12-31T19:05:00.000+00:00" FlightTime="85" TravelTime="85" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="J9|C9|D9|R9|I9"/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="Y9|B9|H9|K9|M9|L9|V9|N9|O9|Q9|S9|G9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAISpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKALSpwAAAAAA==" Group="0" Carrier="IB" FlightNumber="7669" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T19:15:00.000+00:00" ArrivalTime="2019-12-31T20:40:00.000+00:00" FlightTime="85" TravelTime="85" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:CodeshareInfo OperatingCarrier="BA" OperatingFlightNumber="2506">BRITISH AIRWAYS</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="J9|C9|D9|R9|I9"/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="Y9|B9|H9|K9|M9|L9|F9|V9|S9|Z9|N9|Q9|O9|A9|G9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAKSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKANSpwAAAAAA==" Group="0" Carrier="BA" FlightNumber="2506" Origin="LGW" Destination="EDI" DepartureTime="2019-12-31T19:15:00.000+00:00" ArrivalTime="2019-12-31T20:40:00.000+00:00" FlightTime="85" TravelTime="85" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="J9|C9|D9|R9|I9"/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="Y9|B9|H9|K9|M9|L9|V9|N9|O9|Q9|S9|G9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAMSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAPSpwAAAAAA==" Group="0" Carrier="EI" FlightNumber="239" Origin="LGW" Destination="DUB" DepartureTime="2019-12-31T14:50:00.000+00:00" ArrivalTime="2019-12-31T16:10:00.000+00:00" FlightTime="80" TravelTime="260" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="O" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="JA|CA|IA|DA|PA|UA"/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="YA|BA|HA|GA|KA|MA|VA|FA|NA|LA|EA|XA|QA|SA|OA|RA|WA|TA|ZA|AA"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAOSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKARSpwAAAAAA==" Group="0" Carrier="BA" FlightNumber="8858" Origin="DUB" Destination="EDI" DepartureTime="2019-12-31T17:50:00.000+00:00" ArrivalTime="2019-12-31T19:10:00.000+00:00" FlightTime="80" TravelTime="260" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:CodeshareInfo>STOBART AIR FOR AER LINGUS</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="Y9|B9|H9|K9|M9|L9|V9|N9|Q9|O9|S9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAQSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKATSpwAAAAAA==" Group="0" Carrier="9B" FlightNumber="308" Origin="LGW" Destination="LHR" DepartureTime="2019-12-31T11:30:00.000+00:00" ArrivalTime="2019-12-31T13:00:00.000+00:00" FlightTime="90" TravelTime="280" ETicketability="Yes" Equipment="BUS" ChangeOfPlane="false" ParticipantLevel="Guar against alpha AVS" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="O" AvailabilityDisplayType="General">
+          <air:CodeshareInfo>NATIONAL EXPRESS</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="SA"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKASSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAVSpwAAAAAA==" Group="0" Carrier="BE" FlightNumber="2106" Origin="LHR" Destination="EDI" DepartureTime="2019-12-31T14:30:00.000+00:00" ArrivalTime="2019-12-31T16:10:00.000+00:00" FlightTime="100" TravelTime="280" ETicketability="Yes" Equipment="DH4" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="O" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="WA|RA|YA|TA|BA|SA|VA|KA|UA|HA|MA|LA|ZA|QA|PA|IA|EA|XA|AA|NA|GA|OA|DA|JA|FA"/>
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="CA"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAUSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAXSpwAAAAAA==" Group="0" Carrier="EI" FlightNumber="233" Origin="LGW" Destination="DUB" DepartureTime="2019-12-31T10:55:00.000+00:00" ArrivalTime="2019-12-31T12:25:00.000+00:00" FlightTime="90" TravelTime="285" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="O" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="JA|CA|IA|DA|PA|UA"/>
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="YA|BA|HA|GA|KA|MA|VA|FA|NA|LA|EA|XA|QA|SA|OA|RA|WA|TA|ZA|AA"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAWSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAZSpwAAAAAA==" Group="0" Carrier="BA" FlightNumber="8856" Origin="DUB" Destination="EDI" DepartureTime="2019-12-31T14:20:00.000+00:00" ArrivalTime="2019-12-31T15:40:00.000+00:00" FlightTime="80" TravelTime="285" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="General">
+          <air:CodeshareInfo>STOBART AIR FOR AER LINGUS</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="Y9|B9|H9|K9|M9|L9|V9|N9|Q9|O9|S9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAYSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAbSpwAAAAAA==" Group="0" Carrier="9B" FlightNumber="670" Origin="LGW" Destination="LHR" DepartureTime="2019-12-31T11:15:00.000+00:00" ArrivalTime="2019-12-31T13:00:00.000+00:00" FlightTime="105" TravelTime="295" ETicketability="Yes" Equipment="BUS" ChangeOfPlane="false" ParticipantLevel="Guar against alpha AVS" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="O" AvailabilityDisplayType="General">
+          <air:CodeshareInfo>NATIONAL EXPRESS</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="SA"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAaSpwAAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="Tk2f/r8Q2BKAdSpwAAAAAA==" Group="0" Carrier="BE" FlightNumber="2106" Origin="LHR" Destination="EDI" DepartureTime="2019-12-31T14:30:00.000+00:00" ArrivalTime="2019-12-31T16:10:00.000+00:00" FlightTime="100" TravelTime="295" ETicketability="Yes" Equipment="DH4" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="O" AvailabilityDisplayType="General">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo CabinClass="Economy" BookingCounts="WA|RA|YA|TA|BA|SA|VA|KA|UA|HA|MA|LA|ZA|QA|PA|IA|EA|XA|AA|NA|GA|OA|DA|JA|FA"/>
+            <air:BookingCodeInfo CabinClass="Business" BookingCounts="CA"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Tk2f/r8Q2BKAcSpwAAAAAA=="/>
+        </air:AirSegment>
+      </air:AirSegmentList>
+      <air:AirItinerarySolution Key="Tk2f/r8Q2BKAeSpwAAAAAA==">
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKA/RpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKABSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKADSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAFSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAHSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAJSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKALSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKANSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAPSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKARSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKATSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAVSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAXSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAZSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAbSpwAAAAAA=="/>
+        <air:AirSegmentRef Key="Tk2f/r8Q2BKAdSpwAAAAAA=="/>
+        <air:Connection SegmentIndex="8"/>
+        <air:Connection SegmentIndex="10"/>
+        <air:Connection SegmentIndex="12"/>
+        <air:Connection SegmentIndex="14"/>
+      </air:AirItinerarySolution>
+    </air:AvailabilitySearchRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

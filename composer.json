@@ -1,0 +1,5 @@
+{
+    "require": {
+        "filippo-toso/travelport": "^1.0"
+    }
+}
