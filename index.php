@@ -82,7 +82,7 @@ function prettyPrint($result,$file){
 	$dom->loadXML($result);
 	$dom->formatOutput = true;		
 	//call function to write request/response in file	
-	outputWriter($file,$dom->saveXML());
+	// outputWriter($file,$dom->saveXML());
 	return $dom->saveXML();
 }
 
@@ -97,7 +97,7 @@ function parseOutput($content){	//parse the Search response to get values to use
 	
 	$xml = simplexml_load_String("$AirAvailabilitySearchRsp", null, null, 'SOAP', true);	
 	if($xml)
-		echo "Processing! Please wait!";
+		echo "";
 	else{
 		trigger_error("Encoding Error!", E_USER_ERROR);
 	}
@@ -126,7 +126,7 @@ function parseOutput($content){	//parse the Search response to get values to use
 								$GLOBALS[$a] = "$b";
 								$newContent[$count - 1][$a] = "$b";
 								// echo "$a"." : "."$b";
-								file_put_contents($fileName,$a." : ".$b."\r\n", FILE_APPEND);
+								// file_put_contents($fileName,$a." : ".$b."\r\n", FILE_APPEND);
 						}												
 					}					
 				}
@@ -152,14 +152,14 @@ function parseOutput($content){	//parse the Search response to get values to use
 								file_put_contents($fileName,$TokenKey.":".$b."\r\n", FILE_APPEND);
 							}
 						}						
-						file_put_contents($fileName,$Token.":".$ht[0]."\r\n", FILE_APPEND);
+						// file_put_contents($fileName,$Token.":".$ht[0]."\r\n", FILE_APPEND);
 					}
 				}
 			}
 		}
 	}
-	var_dump(json_encode($newContent));
-	echo "\r\n"."Processing Done. Please check results in files.";
+	echo json_encode($newContent);
+	// echo "\r\n"."Processing Done. Please check results in files.";
 
 }
 
